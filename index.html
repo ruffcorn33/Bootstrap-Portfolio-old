@@ -2,14 +2,82 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Bootsrap Portfolio</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <title>Bootsrap Portfolio - Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"`` integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.css">
   </head>
-  <body>
-    <div class="container">
-      <div class="">
 
+  <body  style="background-image: url('assets/images/hypnotize.png')">
+    <div class="container">
+      <!--main navbar container, 100% wide all the time. -->
+      <div class="container-fluid mb-5">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light p-0 mb-4">
+          <div class="container">
+            <div class="text-white p-3 m-0" style="font-family: 'Georgia', Times, Times New Roman, serif; background-color: #4aaaa5">
+              <h1 class="font-weight-bold">Craig Christensen</h1>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="nav navbar-collapse-lg collapse"><!-- links to other pages -->
+                <li class="nav-item">
+                  <a class="nav-link text-muted active" href="index.html"><h6>About</h6></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-muted" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-muted" href="contact.html">Contact</a>
+                </li>
+              </ul><!--end of nav-->
+            </div>
+          </div><!-- end inner navbar container -->
+        </nav>
+      </div><!-- End of outer navbar container -->
+
+      <div  >
+        <div class="container p-0 pt-5"><!-- content container -->
+          <div class="row mb-5">
+            <!-- main content -->
+            <div class="col-sm-7 border border-light bg-white mt-5 ml-4 mb-5 mr-5">
+              <div class="p-3 m-0" style="color: #4aaaa5; font-family: 'Georgia', Times, Times New Roman, serif;">
+                <h2 class="mb-0 p-0 font-weight-bold">About Me</h2>
+              </div>
+              <hr>
+              <div ><!-- bio -->
+                <img class="float-left mr-2" title="The Developer" src="assets/images/headshot.png" alt="Craig Christensen" height="120" width="130">
+                <p class="lead">
+                  Vehicle crypto- tattoo narrative San Francisco meta- semiotics assault free-market saturation point franchise sentient carbon geodesic shrine. kanji beef noodles sign shoes Chiba market monofilament tank-traps weathered industrial grade cyber.
+                </p>
+                <p class="lead">
+                  Space industrial grade long-chain hydrocarbons film. table tube advert spook order-flow systemic corrupted semiotics neural neural grenade city A.I. dolphin car. tank-traps construct chrome tanto sensory knife -ware saturation point youtube cyber- dome assault BASE jump.
+                </p>
+              </div> <!--end of bio div -->
+            </div><!-- end main content -->
+
+            <!-- connect links box -->
+            <div class="col-sm-2 border border-light bg-white p-3 mt-5" style="height: 100%; width: auto;">
+              <div class="row justify-content-md-center">
+                <div style="color: #4aaaa5; font-family: 'Georgia', Times, Times New Roman, serif;">
+                  <p class="font-weight-bold">Connect with Me</p>
+                  <hr>
+                </div>
+              </div>
+              <div class="row justify-content-md-center">
+                <a href="https://github.com/ruffcorn33" target="_blank"><img src="assets/images/GitHub.svg" alt="GitHub" width="42" height="42" border="0"></a>
+                <a href="https://linkedin.com/in/craig-christensen-818693135" target="_blank"><img src="assets/images/Linkedin.svg" alt="LinkedIn" width="42" height="42" border="0"></a>
+                <a href="https://stackoverflow.com/users/8452434/craig-christensen" target="_blank"><img src="assets/images/stackoverflow.svg" alt="Stack Overflow" width="40" height="40" border="0"></a>
+              </div>
+            </div><!-- end connect links box -->
+
+          </div><!-- end row -->
+        </div><!-- end content container -->
       </div>
+    </div> <!-- end of main container -->
+    <!-- footer -->
+    <div class="container-fluid justify-content-center bg-secondary p-3 fixed-bottom mt-5">
+      <p class="d-flex justify-content-center pt-2"><small>&copy; Copyright 2017 Craig Christensen</small></p>
     </div>
 
   </body>
